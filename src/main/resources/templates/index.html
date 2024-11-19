@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Menú Principal</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Menú Principal</h1>
+    <ul>
+        <li><a th:href="@{/proyectos}">Lista de Proyectos</a></li>
+        <li><a th:href="@{/proyectos/nuevo}">Crear Proyecto</a></li>
+    </ul>
+</body>
+</html>
